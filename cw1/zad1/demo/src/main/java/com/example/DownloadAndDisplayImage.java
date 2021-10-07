@@ -8,10 +8,16 @@ import ij.io.Opener;
 public class DownloadAndDisplayImage {
     public static void main(String[] args) throws Exception {
 
-        String filename = "file.jpg"; 
-        FileUtils.copyURLToFile(new URL("https://upload.wikimedia.org/wikipedia/commons/3/38/JPEG_example_JPG_RIP_001.jpg"),new File(filename));
+        String filename = "file.jpg";
+        FileUtils.copyURLToFile(
+                new URL("https://upload.wikimedia.org/wikipedia/commons/3/38/JPEG_example_JPG_RIP_001.jpg"),
+                new File(filename));
 
         Opener opener = new Opener();
         opener.open(filename);
+
+        Thread.sleep(5000);
+
+        System.exit(0);
     }
 }

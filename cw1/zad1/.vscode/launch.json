@@ -10,26 +10,6 @@
             "request": "launch",
             "mainClass": "com.example.DownloadAndDisplayImage",
             "projectName": "demo"
-        },
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "com.example.App",
-            "projectName": "demo"
-        },
-        {
-            "type": "java",
-            "name": "Launch SubjectEvaluation",
-            "request": "launch",
-            "mainClass": "com.example.SubjectEvaluation",
-            "projectName": "demo"
         }
     ]
 }
