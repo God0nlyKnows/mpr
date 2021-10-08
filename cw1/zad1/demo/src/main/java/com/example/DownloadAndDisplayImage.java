@@ -36,6 +36,5 @@ public class DownloadAndDisplayImage {
         opener.open(filename);
 
         Thread.sleep(5000);
-        System.exit(0);
-    }
+    
 }
