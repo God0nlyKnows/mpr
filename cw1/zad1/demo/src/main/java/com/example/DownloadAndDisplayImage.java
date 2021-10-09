@@ -1,6 +1,5 @@
 package com.example;
 
-import java.io.Console;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -36,5 +35,6 @@ public class DownloadAndDisplayImage {
         opener.open(filename);
 
         Thread.sleep(5000);
-    
+        System.exit(0);
+    }
 }
